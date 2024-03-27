@@ -1,0 +1,13 @@
+node_modules
+lib
+coverage
+# Ignore all the files inside the node_modules folder
+data/**/*.*
+
+src/assets/*.gz
+
+# Allow only json files inside the node_modules folder
+!data/**/*.geo.json
+!data/**/*.lite.json
+!data/**/*.timezones.json
+!data/allCountries.json
